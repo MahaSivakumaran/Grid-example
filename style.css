@@ -1,0 +1,35 @@
+.parent{
+ display: grid;
+    margin: 10px;
+    grid-template-columns: auto auto auto;
+    grid-auto-rows: auto ;
+
+
+  
+}
+.child{
+    padding: 10px;
+    background-color: #018383;;
+    margin: 1px;
+    font-size: 20px;
+    color: white;
+    
+}
+.child:nth-child(odd){
+    background-color: #02a8a8;;
+}
+.one{
+    grid-column: span 2;
+    grid-row: span 2;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+}
+.nine{
+
+    grid-column: span 3;
+    font-size:15px;
+}
+.six{
+    grid-row: span 2;
+}
